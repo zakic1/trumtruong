@@ -1,0 +1,621 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="icon/themify-icons/themify-icons.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="shortcut icon" href="img/GoodTrip5.png" />
+    <link rel="stylesheet" href="CSS/main.css" />
+    <link rel="stylesheet" href="CSS/header.css" />
+    <link rel="stylesheet" href="CSS/slider.css" />
+    <link rel="stylesheet" href="CSS/news.css" />
+    <link rel="stylesheet" href="CSS/blog.css" />
+    <link rel="stylesheet" href="CSS/footer.css" />
+    <title>| GoodTrip Việt Nam</title>
+  </head>
+  <body>
+    <!-- Messenger Plugin chat Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Plugin chat code -->
+    <div id="fb-customer-chat" class="fb-customerchat"></div>
+
+    <script>
+      var chatbox = document.getElementById("fb-customer-chat");
+      chatbox.setAttribute("page_id", "112627521317796");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function () {
+        FB.init({
+          xfbml: true,
+          version: "v12.0",
+        });
+      };
+
+      (function (d, s, id) {
+        var js,
+          fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js";
+        fjs.parentNode.insertBefore(js, fjs);
+      })(document, "script", "facebook-jssdk");
+    </script>
+    <div id="main">
+      <header id="header">
+        <!-- Begin menu nav -->
+        <div class="menu_top">
+          <a href="index.html"><img src="img/GoodTrip5.png" alt="Logonav" /></a>
+          <ul id="nav">
+            <li><a href="index.html">Trang chủ</a></li>
+            <li>
+              <a href="#">Tìm kiếm</a>
+              <div class="container-1">
+                <input
+                  class="subnav timkiem"
+                  type="search"
+                  placeholder="Tìm kiếm..."
+                />
+              </div>
+            </li>
+            <li>
+              <a href="#services">
+                Dịch vụ
+                <i class="dow-icon ti-arrow-circle-down"></i>
+              </a>
+              <ul class="subnav">
+                <li><a href="booking.html">Booking</a></li>
+                <li><a href="goidulich.html">Gói du lịch</a></li>
+              </ul>
+            </li>
+            <li><a href="blog.html">blog</a></li>
+            <li><a href="hotro.html">Hỗ trợ</a></li>
+          </ul>
+          <!-- User -->
+          <div
+            class="user-section"
+            onclick="alert('Hãy đăng nhập để sử dụng dịch vụ')"
+          >
+            <i class="fas fa-user"></i>
+          </div>
+
+        </div>
+
+        <!-- End menu nav -->
+      </header>
+      <!-- Thiết kế slide -->
+      <div id="slider">
+        <!-- Banner1 -->
+        <div class="banner-section">
+          <img src="img/gk.jpg" alt="" class="img-slider" />
+          <div class="text-slider">
+            <h2 class="heading-slider"></h2>
+            <div class="morebanner-btn">
+              <a href="#timhieucantho"></a>
+            </div>
+          </div>
+        </div>
+        <!-- ================================= -->
+        <!-- End banner 1 -->
+      </div>
+      <!-- End thiết kế slide -->
+      <!-- Care -->
+
+      <!-- CONTAINER -->
+      <div id="timhieucantho"></div>
+      <div id="newscontainer">
+        <div class="header">
+          <div class="introduct">
+            <div class="container">
+              <div class="content center">
+                <h5 class="t-black">ĐI KHẮP VIỆT NAM</h5>
+                <span class="line gold"></span>
+                <h2 class="t-content">
+                  SÔNG NƯỚC MIỀN TÂY Ở
+                  <span class="t-gold">CỒN QUY</span>
+                </h2>
+                <h5 class="t-black bot-content">
+                  MUỐN ĐI NHANH HÃY ĐI MỘT MÌNH | MUỐN ĐI XA HÃY ĐI CÙNG
+                 NHAU
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="news-col">
+          <div class="col8">
+            <div class="care">
+              <i class="far fa-heart"> 3.33k</i>
+              <i class="far fa-share-square"> 999</i>
+            </div>
+            <div class="news-content">
+              <p>
+               
+Cồn Quy là một mảnh đất nằm dọc theo dòng sông Tiền thơ mộng, nơi đây cách thành phố Bến Tre khoảng 23km. Cồn Quy hay còn gọi là Cồn Cát, là một trong 4 “tứ cồn” của Bến Tre: Long, Lân, Quy, Phụng.
+Địa chỉ: xã Tân Thạch và Qưới Sơn, huyện Châu Thành, tỉnh Bến Tre
+              </p>
+              <h2 id="gioithieucantho">I. Tổng quan về Cồn Quy</h2>
+              <p>
+                Cồn Quy là cồn nhỏ nhất trong những cồn tại tỉnh Bến Tre, có diện tích tự nhiên khoảng 65ha. Theo người dân địa phương, trong số bốn cồn “Tứ Linh” nổi danh của du lịch miền Tây, thì ba cồn Long, Lân, Phụng, có hình dáng dài, riêng cồn Quy có hình tròn (giống hình con rùa) nên được gắn với tên này.
+              </p>
+              <div class="news-img">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/V%C6%B0%E1%BB%9Dn_nh%C3%A3n_%E1%BB%9F_c%E1%BB%93n_Quy.jpg/1200px-V%C6%B0%E1%BB%9Dn_nh%C3%A3n_%E1%BB%9F_c%E1%BB%93n_Quy.jpg " alt="" />
+                <div class="title-img">
+                 (nguồn sưu tầm)
+                </div>
+              </div>
+              <h2 id="dichuyencantho">II. Phương tiện di chuyển</h2>
+              <h2>Xe khách</h2>
+              <h4>1.Nhà xe Phương Trang</h4>
+              <h4>2.Nhà xe Mai Linh</h4>
+              <h4>3.Xe Hoàng Long</h4>
+              <h2></h2>
+              <p>
+               
+              </p>
+              <h2></h2>
+              <p>
+               
+              </p>
+              <h2 id="thoidiemcantho">III. Thời điểm lý tưởng đi Cồn Quy</h2>
+              <p>
+                Thời điểm đẹp nhất để đi du lịch Cồn Quy
+Được mẹ thiên nhiên ưu ái ban cho thời tiết nắng ấm quanh năm; chính vì vậy Cồn Quy có thể đón tiếp bạn bất kỳ thời điểm nào trong năm. Nhiều du khách thường có xu hướng du lịch Cồn Quy vào những dịp cuối tuần để thư giản sau một tuần bận rộn và mệt mỏi. <br />
+                <br />
+                Bên cạnh đó, vào khoảng tháng 6 – tháng 8, nơi đây đón tiếp hàng ngàn du khách đến tham quan và trải nghiệm mỗi ngày. Bởi lẽ, đây là thời điểm người dân Bến Tre thu hoạch các loại trái cây đặc sản như: nhãn, chôm chôm, sầu riêng, măng cụt,…
+              </p>
+              <div class="news-img">
+                <img src="https://luhanhvietnam.com.vn/du-lich/vnt_upload/news/04_2021/vuon-chom-chom.jpg " alt="" />
+                <div class="title-img">
+                  (nguồn sưu tầm)
+                </div>
+              </div>
+              <p>
+               
+              </p>
+              <div class="news-img">
+                <img src="https://thamhiemmekong.com/wp-content/uploads/2020/04/conquy-02.jpg " alt="" />
+                <div class="title-img">
+                  (nguồn sưu tầm)
+                </div>
+              </div>
+              <p>
+                Từ tháng 12 đến tháng 1, tháng 2 dương lịch là thời điểm gần
+                giáp tết. Đến Cồn quy dịp này để đắm mình trong những sắc hoa
+                rực rỡ
+              </p>
+              <div class="news-img">
+
+     <img src="https://owa.bestprice.vn/images/destinations/uploads/lang-hoa-kieng-cho-lach-60a228b2d5a3d.jpg" alt="" />
+
+                <div class="title-img">
+                  Sắc hoa rực rỡ ngày giáp tết (nguồn sưu tầm)
+                </div>
+              </div>
+              <h2 id="diadiemcantho">IV. Các địa điểm của Cồn Quy</h2>
+              <h4>Thưởng thức vườn trái cây</h4>
+              <p>
+                Thưởng thức trái cây tại vườn
+Chuyến du lịch Cồn Quy của bạn sẽ thực sự không trọn vẹn nếu bạn bỏ qua việc khám phá các vườn trái cây sum xuê, trĩu quả tại đây. Sau một hành trình dài để đến được khu du lịch Cồn Quy Bến Tre, du khách có thể dừng chân tại các vườn trái cây; tận mắt hái và thưởng thức cái loại trái cây mình yêu thích như: chôm chôm, nhãn, sabo, đu đủ, ổi, dưa,… Nhiều du khách đến với Cồn Quy cùng mong muốn lớn nhất là ăn thỏa thích các loại trái cây tươi ngon tại vườn mà không lo nhúng thuốc.
+              </p>
+              <div class="news-img">
+                <img src="https://r2.nucuoimekong.com/wp-content/uploads/thuong-thuc-trai-cay-mien-tay.jpg  " alt="" />
+                <div class="title-img">
+                 (nguồn sưu tầm)
+                </div>
+              </div>
+              <h4>Nuôi ong</h4>
+              <p>
+                Tham trang trại nuôi ong
+Những năm gần đây, ngoài nghề trông cây ăn quả thì người dân Bến Tre còn phát triển thêm nghề chăn nuôi. Trong đó, công việc nuôi ong lấy mật đang mang lại hiệu quả kinh tế cao cho người dân nơi đây. Đến với trại nuôi ong, du khách sẽ được nghe giới thiệu về quy trình nuôi cũng như lấy mật ong. Đặc biệt, những ly trà mật ong ngọt lịm, vàng ươm cũng sẽ giúp bạn xua đi cái nóng bức của miền tây. Bên cạnh việc tham quan; thưởng thức mật ong du khách cũng có thể mua các loại sản phẩm từ ong như: mật ong; sáp ong, sữa ong chúa để về làm quà cho bạn bè và người thân.
+              </p>
+              <div class="news-img">
+                <img src="https://media-cdn.tripadvisor.com/media/photo-s/13/77/c6/fe/tham-quan-co-s-nuoi-ong.jpg" alt="" />
+                <div class="title-img">
+                 (nguồn sưu tầm)
+                </div>
+              </div>
+              <div class="news-img">
+            
+                <div class="title-img">
+                 
+                </div>
+              </div>
+              <h4></h4>
+              <p>
+               
+              </p>
+              <div class="news-img">
+         
+                <div class="title-img">
+                 
+                </div>
+              </div>
+              <div class="news-img">
+         
+                <div class="title-img">
+                 
+                </div>
+              </div>
+    
+              <div class="news-img">
+
+                <div class="title-img">
+                 
+                </div>
+              </div>
+        
+              <div class="news-img">
+         
+                <div class="title-img">
+                 
+                </div>
+              </div>
+              <div class="news-img">
+             
+                <div class="title-img">
+                 
+                </div>
+              </div>
+     
+              <div class="news-img">
+          
+                <div class="title-img">
+                 
+                </div>
+              </div>
+              <div class="news-img">
+              
+                <div class="title-img"></div>
+              </div>
+           
+              <div class="news-img">
+                <img src="img//canthoimg/cantho15.jpg " alt="" />
+                <div class="title-img">
+                 
+                </div>
+              </div>
+              <h4></h4>
+              <div class="news-img">
+              
+                <div class="title-img">
+           
+                </div>
+              </div>
+             
+              <h4></h4></h4>
+              <p>
+               
+              </p>
+              <div class="news-img">
+               
+                <div class="title-img">
+                 
+                </div>
+              </div>
+              <h4></h4>
+              <div class="news-img">
+             
+                <div class="title-img">
+                
+                </div>
+              </div>
+              <p>
+               
+              </p>
+              <h2 id="dacsancantho">V. Đặc sản Cồn Quy</h2>
+              <h4>Duông dừa</h4>
+              <div class="news-img">
+                <img src="https://khaihoanphuquoc.com.vn/wp-content/uploads/2023/12/duong-dua-xung-danh-dac-san-mien-tay-thom-ngon-nuc-tieng-duong-dua-xung-danh-dac-san-mien-tay-thom-ngon-nuc-tieng-3.jpg" alt="" />
+                <div class="title-img">
+                (nguồn sưu
+                  tầm)
+                </div>
+              </div>
+              <p>
+               
+                <br />
+                <br />
+            
+                <br />
+                <br />
+               
+                Thơ.
+              </p>
+              <h4>Cá tai Tượng chiên xù</h4>
+              <p>
+               
+                <br />
+                <br />
+              
+              </p>
+              <div class="news-img">
+                <img src="https://static.ecosite.vn/3359/picture/2018/05/19/ca-tai-tuong-dac-san-vinh-long.02jpg-1526701453.jpg " alt="" />
+                <div class="title-img">ảnh:st</div>
+              </div>
+              <h4>Vịt nấu chao</h4>
+              <div class="news-img">
+                <img src="https://reviewvilla.vn/wp-content/uploads/2022/06/vit-nau-chao-can-tho-9.jpg " alt="" />
+                <div class="title-img">
+                 (nguồn sưu tầm)
+                </div>
+              </div>
+              <p>
+               
+                <br />
+                <br />
+          
+                <br />
+                <br />
+             
+              </p>
+              <h4>Cá lóc nướng trui</h4>
+              <div class="news-img">
+                <img src="https://daotaobeptruong.vn/wp-content/uploads/2020/07/ca-loc-nuong-trui.jpg " alt="" />
+                <div class="title-img">
+                  Đậm đà cá lóc nướng trui (nguồn sưu tầm)
+                </div>
+              </div>
+              <p>
+               
+              </p>
+              <h4>Lẩu cá kèo</h4>
+              <div class="news-img">
+                <img src="https://banhtrangphucuong.vn/wp-content/uploads/2022/10/Lau-ca-keo.jpg " alt="" />
+                <div class="title-img">
+                 (nguồn sưu tầm)
+                </div>
+              </div>
+              <p>
+               
+                <br />
+                <br />
+              
+              </p>
+              <h4>Ba khía rang me</h4>
+              <p>
+               
+              </p>
+              <div class="news-img">
+                <img src="https://thamhiemmekong.com/wp-content/uploads/2019/07/ba-khia-rang-me-can-tho.jpg " alt="" />
+                <div class="title-img">
+                  Du lịch ở Cần Thơ thưởng thức Ốc nướng tiêu hấp dẫn (nguồn sưu
+                  tầm)
+                </div>
+              </div>
+              <h2 id="muaquacantho"></h2>
+              <p>
+               
+              </p>
+              <div class="news-img">
+               
+                <div class="title-img">
+                 
+                </div>
+              </div>
+              <div class="news-img">
+               
+                <div class="title-img"></div>
+              </div>
+              <div class="news-img">
+               
+                <div class="title-img"></div>
+              </div>
+              <div class="news-img">
+           
+                <div class="title-img">
+                 
+                </div>
+              </div>
+              <div class="news-img">
+               
+                <div class="title-img">
+                 
+                 
+                </div>
+              </div>
+              <h2 id="tongketcantho"></h2>
+              <p>
+               
+              </p>
+            </div>
+          </div>
+          <div class="col4">
+            <div class="sidenav">
+              <h3 class="header-sidenav">Nội dung chính</h3>
+              <ul class="newslist" style="list-style-type: none">
+                <li>
+                  <a href="#gioithieucantho"
+                    >I. Tổng quan về Cồn Quy
+                  </a>
+                </li>
+                <li>
+                  <a href="#dichuyencantho">II. Phương tiện di chuyển</a>
+                </li>
+                <li>
+                  <a href="#thoidiemcantho"
+                    >III. Thời điểm lý tưởng đi Cồn Quy</a
+                  >
+                </li>
+                <li>
+                  <a href="#diadiemcantho"
+                    >IV. Các địa điểm của Cồn Quy</a
+                  >
+                </li>
+                <li>
+                  <a href="#dacsancantho">V. Đặc sản Cồn Quy</a>
+                </li>
+                <li>
+                  <a href="#tongketcantho"></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- BLOG -->
+      <div id="blog">
+        <!-- hEADER OF BLOG -->
+        <div class="header">
+          <div class="introduct">
+            <div class="container">
+              <div class="content center">
+                <h5 class="t-black">ĐI KHẮP VIỆT NAM</h5>
+                <span class="line gold"></span>
+                <h2 class="t-content">
+                  NƠI ĐÂY SẼ CẬP NHẬT
+                  <span class="t-gold">BLOG</span>
+                  MỖI NGÀY
+                </h2>
+                <h5 class="t-black bot-content">
+                  ĐÓN CHỜ CÁC TIN TỨC TỪ NHỮNG ĐỊA ĐIỂM DU LỊCH
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- END HEADER OF BLOG -->
+        <div class="container-blog center">
+          <div class="container-header">
+            <a href="" class="btn-more">Xem tất cả >></a>
+          </div>
+          <div class="container-news">
+            <div class="product-blog">
+              <a href=""
+                ><img
+                  src="img/1.jpg"
+                  alt=""
+                  class="blog-img"
+              /></a>
+              <div class="blog-content">
+                <a href="">
+                  <h4 class="">
+                    Kinh nghiệm du lịch Bến Tre
+                  </h4>
+                </a>
+                <div class="blog-detail">
+                  <div class="info">By: Nhóm 4</div>
+                  <div class="info2">
+                    <div class="date">
+                      <i class="fas fa-clock"></i>20/1/2025
+                    </div>
+                    <div class="view"><i class="fas fa-eye"></i>999 view</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-blog">
+              <a href=""
+                ><img src="img/2.jpg" alt="" class="blog-img"
+              /></a>
+              <div class="blog-content">
+                <a href="">
+                  <h4 class="">
+                    Thời điểm thích hợp nhất để đi Bến Tre là mùa hạ
+                  </h4>
+                </a>
+                <div class="blog-detail">
+                  <div class="info">By: NHÓM 4</div>
+                  <div class="info2">
+                    <div class="date">
+                      <i class="fas fa-clock"></i>20/1/2025
+                    </div>
+                    <div class="view"><i class="fas fa-eye"></i>999 view</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-blog">
+              <a href=""
+                ><img
+                  src="img/3.jpg"
+                  alt=""
+                  class="blog-img"
+              /></a>
+              <div class="blog-content">
+                <a href="">
+                  <h4 class="">
+                    Cất túi ngay cuốn cẩm nang du lịch mọi nơi
+                  </h4>
+                </a>
+                <div class="blog-detail">
+                  <div class="info">By: Pham Gia Hào</div>
+                  <div class="info2">
+                    <div class="date">
+                      <i class="fas fa-clock"></i>20/1/2022
+                    </div>
+                    <div class="view"><i class="fas fa-eye"></i>999 view</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- FOOTER -->
+      <div id="footer">
+        <div class="footer-top">
+          <div class="contact-container center">
+            <div class="contact-top">
+              <div class="introduct">
+                <div class="container">
+                  <div class="content center">
+                    <h5 class="t-black">ĐI KHẮP VIỆT NAM</h5>
+                    <span class="line gold"></span>
+                    <h2 class="t-content">
+                      ĐỪNG QUÊN RẰNG CÒN CÓ
+                      <span class="t-gold">Chúng tôi</span>
+                    </h2>
+                    <h5 class="t-black bot-content">
+                      HÃY GIỮ LIÊN LẠC VỚI Nhóm 4
+                    </h5>
+                  </div>
+                </div>
+              </div>
+              <div class="container-email">
+                <input
+                  id="form_email"
+                  type="email"
+                  name="email"
+                  class="form-control"
+                  placeholder="Để lại Email của bạn*"
+                  required="required"
+                />
+                <input type="submit" name="submit" id="submit" value="Giử" />
+              </div>
+            </div>
+            <div class="contact-bot">
+              <h5 class="t-black">GIỮ LIÊN LẠC VỚI CHÚNG TÔI</h5>
+              <span class="line gold"></span>
+              <div class="mxh">
+                <a href="" class="primary-btn"
+                  ><i class="fab fa-facebook-square" aria-hidden="true"></i
+                ></a>
+                <a href="" class="primary-btn"
+                  ><i class="fab fa-instagram" aria-hidden="true"></i
+                ></a>
+                <a href="" class="primary-btn"
+                  ><i class="fab fa-twitter" aria-hidden="true"></i
+                ></a>
+              </div>
+            </div>
+            <div class="footer-end">
+              2025 - Trang web được thiết kế bởi PS20626 | NHÓM 4©
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
