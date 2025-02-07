@@ -1,0 +1,42 @@
+/** @format */
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  transition: all 0.2s linear;
+}
+html {
+  font-family: open sans, sans-serif;
+  font-size: 62.5%;
+}
+
+.center {
+  text-align: center;
+}
+.t-black {
+  letter-spacing: 0.5rem !important;
+  color: black !important;
+  font-weight: 500 !important;
+  font-size: 1.3rem !important;
+  font-style: italic !important;
+}
+/**
+ * /*==================================== CSS PHẦN BOOKING ======================================
+ *
+ * @format
+ */
+
+/*==================================== CSS PHẦN FOOTER ====================================== */
+
+.box-container .box img {
+  width: 100% !important;  /* Đảm bảo ảnh chiếm hết chiều rộng */
+  height: auto !important;  /* Giữ tỷ lệ của ảnh */
+  object-fit: cover !important;  /* Đảm bảo ảnh không bị méo */
+  transition: transform 0.3s ease-in-out !important; /* Thêm hiệu ứng khi hover */
+}
+
+/* Khi di chuột vào ảnh, ảnh sẽ to ra */
+.box-container .box:hover img {
+  transform: scale(1.2) !important;  /* Phóng to ảnh lên 20% */
+}

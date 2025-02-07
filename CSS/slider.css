@@ -1,0 +1,96 @@
+/** @format */
+
+/**
+ * /*==================================== CSS PHẦN SLIDER ======================================
+ *
+ * @format
+ */
+
+#slider .banner-section img {
+  width: 100%;
+  max-height: 100vh;
+  object-fit: cover; /* Đảm bảo ảnh không bị méo và lấp đầy màn hình */
+  transition: transform 0.3s ease-in-out; /* Thêm hiệu ứng cho ảnh khi di chuột vào */
+}
+
+/* Hiệu ứng phóng to khi hover vào ảnh slider */
+#slider .banner-section img:hover {
+  transform: scale(1.1); /* Phóng to ảnh lên 10% */
+}
+
+/* Phần ảnh trong .box-container */
+.box-container .box img {
+  width: 100% !important;  /* Đảm bảo ảnh chiếm hết chiều rộng */
+  height: auto !important;  /* Giữ tỷ lệ của ảnh */
+  object-fit: cover !important;  /* Đảm bảo ảnh không bị méo */
+  transition: transform 0.3s ease-in-out !important; /* Thêm hiệu ứng khi hover */
+}
+
+/* Khi di chuột vào ảnh trong .box-container, ảnh sẽ to ra */
+.box-container .box:hover img {
+  transform: scale(1.2) !important;  /* Phóng to ảnh lên 20% */
+}
+
+#slider .banner-section .text-slider {
+  position: absolute;
+  top: 40%;
+  bottom: 50%;
+  width: 100%;
+  text-align: center;
+}
+#slider .banner-section .text-slider h2 {
+  font-size: 4.5rem;
+  width: 100%;
+  text-align: center;
+  font-weight: 200;
+  color: #fff;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  text-shadow: 0px 0px 50px green;
+}
+#slider .banner-section .text-slider h4 {
+  margin-bottom: 3rem;
+  color: #fff;
+  font-style: italic;
+  letter-spacing: 0.3rem;
+  font-weight: 400;
+  font-size: 1.5rem;
+  text-shadow: 0px 0px 20px green;
+}
+#slider .banner-section .text-slider .morebanner-btn {
+  padding: 1.5vw;
+  min-width: 5rem;
+  border: 2px solid #06aa2a;
+  text-align: center;
+  font-weight: 500;
+  margin: 5px 0;
+  display: inline-block;
+  background-color: #06aa2a;
+  border-radius: 5px;
+}
+.text-slider a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 100;
+}
+.packages .box-container .box .btn:hover,
+#content .box-container .box .content .btn:hover,
+.text-slider .morebanner-btn:hover {
+  background-color: rgba(102, 252, 88, 0.267) !important;
+  cursor: pointer;
+}
+
+.box-container .box img {
+  width: 100% !important;  /* Đảm bảo ảnh chiếm hết chiều rộng */
+  height: auto !important;  /* Giữ tỷ lệ của ảnh */
+  object-fit: cover !important;  /* Đảm bảo ảnh không bị méo */
+  transition: transform 0.3s ease-in-out !important; /* Thêm hiệu ứng khi hover */
+}
+
+/* Khi di chuột vào ảnh, ảnh sẽ to ra */
+.box-container .box:hover img {
+  transform: scale(1.2) !important;  /* Phóng to ảnh lên 20% */
+}

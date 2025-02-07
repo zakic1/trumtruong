@@ -1,0 +1,134 @@
+/** @format */
+#goidulich {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+#blog {
+  top: 5rem !important;
+  position: relative;
+  width: 100%;
+}
+
+#footer .footer-top {
+  margin-top: 10rem !important;
+}
+
+.packages .box-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+.packages .box-container .box {
+  flex: 1 1 30rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+}
+
+.packages .box-container .box img {
+  height: 25rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.packages .box-container .box .content {
+  padding: 2rem;
+}
+
+.packages .box-container .box .content h3 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.packages .box-container .box .content h3 i {
+  color: var(--orange);
+}
+
+.packages .box-container .box .content p {
+  font-size: 1.7rem;
+  color: #666;
+  padding: 1rem 0;
+}
+
+.packages .box-container .box .content .stars i {
+  font-size: 1.7rem;
+  color: green;
+}
+
+.packages .box-container .box .content .price {
+  font-size: 2rem;
+  color: #333;
+  padding-top: 1rem;
+}
+
+.packages .box-container .box .content .price span {
+  color: #666;
+  font-size: 1.5rem;
+  text-decoration: line-through;
+}
+
+/* Media Queries for Mobile and Tablets */
+
+/* For devices with max width of 768px (tablets and smaller) */
+@media (max-width: 768px) {
+  #goidulich {
+    width: 100%;
+    padding: 0 1rem;
+  }
+
+  .packages .box-container .box {
+    flex: 1 1 48%;
+    /* Đảm bảo box không bị quá rộng trên màn hình nhỏ */
+  }
+
+  .packages .box-container .box img {
+    height: 20rem;
+  }
+
+  .packages .box-container .box .content h3 {
+    font-size: 1.8rem;
+  }
+
+  .packages .box-container .box .content p {
+    font-size: 1.5rem;
+  }
+
+  .packages .box-container .box .content .price {
+    font-size: 1.8rem;
+  }
+
+  .packages .box-container .box .content .price span {
+    font-size: 1.4rem;
+  }
+}
+
+/* For devices with max width of 480px (mobiles and smaller) */
+@media (max-width: 480px) {
+  .packages .box-container .box {
+    flex: 1 1 100%;
+    /* Box chiếm toàn bộ chiều rộng trên màn hình di động */
+  }
+
+  .packages .box-container .box img {
+    height: 18rem;
+  }
+
+  .packages .box-container .box .content h3 {
+    font-size: 1.6rem;
+  }
+
+  .packages .box-container .box .content p {
+    font-size: 1.4rem;
+  }
+
+  .packages .box-container .box .content .price {
+    font-size: 1.6rem;
+  }
+
+  .packages .box-container .box .content .price span {
+    font-size: 1.3rem;
+  }
+}
